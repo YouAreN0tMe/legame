@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://qp00ls4av0eq"]
+
+[ext_resource type="Script" uid="uid://c6ax06bkyjad6" path="res://MapGen.gd" id="1_epypp"]
+[ext_resource type="PackedScene" uid="uid://dd0gpwfalj3fs" path="res://room_1.tscn" id="2_0e48y"]
+[ext_resource type="PackedScene" uid="uid://1jj2n7vioaog" path="res://Player.tscn" id="2_epypp"]
+[ext_resource type="PackedScene" uid="uid://ck0ojae8jun1s" path="res://room_2.tscn" id="4_0hol4"]
+
+[node name="Node2D" type="Node2D" unique_id=1774106139]
+script = ExtResource("1_epypp")
+
+[node name="CharacterBody2D" parent="." unique_id=1825185204 instance=ExtResource("2_epypp")]
+position = Vector2(27, -38)
+scale = Vector2(0.99999994, 0.99999994)
+collision_layer = 2
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1458517185]
+position = Vector2(1.1920929e-07, -2.3841858e-07)
+scale = Vector2(1.121, 1)
+
+[node name="Room_1" parent="." unique_id=286553047 instance=ExtResource("2_0e48y")]
+position = Vector2(1435, -42)
+
+[node name="Room_2" parent="." unique_id=887416680 instance=ExtResource("4_0hol4")]
+position = Vector2(1757, -42)

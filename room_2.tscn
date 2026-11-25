@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://ck0ojae8jun1s"]
+
+[ext_resource type="Texture2D" uid="uid://cfygxhiv5osld" path="res://Room_2.png" id="1_wjifb"]
+
+[node name="Room_2" type="StaticBody2D" unique_id=887416680]
+scale = Vector2(2, 2)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=540244001]
+scale = Vector2(5, 5)
+texture = ExtResource("1_wjifb")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=161561633]
+position = Vector2(-1.6860966e-05, 8.316039e-06)
+scale = Vector2(8.840002, 8.719998)
+polygon = PackedVector2Array(-8.484161, -2.2935781, -8.484161, -8.600919, -2.262443, -8.600919, -2.262443, -9.174313, -9.049772, -9.174313, -9.049772, -2.2935781)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." unique_id=346100445]
+polygon = PackedVector2Array(-80, 20, -80, 80, -20, 80, -20, 75, -75, 75, -75, 20)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="." unique_id=1888594216]
+polygon = PackedVector2Array(20, 75, 20, 80, 80, 80, 80, 20, 75, 20, 75, 75)
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="." unique_id=1445295044]
+polygon = PackedVector2Array(80, -20, 80, -80, 20, -80, 20, -75, 75, -75, 75, -20)
+
+[node name="CollisionPolygon2D6" type="CollisionPolygon2D" parent="." unique_id=1584527502]
+polygon = PackedVector2Array(25, -50, 25, -30, 45, -30, 45, -50)
+
+[node name="CollisionPolygon2D7" type="CollisionPolygon2D" parent="." unique_id=565442645]
+polygon = PackedVector2Array(-45, -50, -45, -30, -25, -30, -25, -50)
+
+[node name="CollisionPolygon2D8" type="CollisionPolygon2D" parent="." unique_id=935814191]
+polygon = PackedVector2Array(-45, 30, -45, 50, -25, 50, -25, 30)
+
+[node name="CollisionPolygon2D9" type="CollisionPolygon2D" parent="." unique_id=1771438383]
+polygon = PackedVector2Array(25, 30, 25, 50, 45, 50, 45, 30)
